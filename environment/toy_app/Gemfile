@@ -28,3 +28,10 @@ end
 
 # Windows ではタイムゾーン情報用の tzinfo-data gem を含める必要があります
 gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+group :development do
+  gem 'prettier_print'
+  gem 'syntax_tree'
+  gem 'syntax_tree-haml'
+  gem 'syntax_tree-rbs'
+end
